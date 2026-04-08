@@ -38,10 +38,16 @@
 
 ### 方法 1: 直接使用示例 Skill
 
-这些 skill 已经是完整的、可直接使用的。你可以：
+这些 skill 已经是完整的、可直接使用的。
 
-1. 将 `SKILL.md` 文件复制到你的 DuMate skills 目录
-2. 通过斜杠命令调用，例如 `/mvp`
+**OpenClaw:**
+- 口语化安装：`帮我安装下 <skill-path>`
+- 或使用命令：`npx skills add <skill-path>`
+- 通过斜杠命令调用，如 `/mvp`
+
+**Claude Code:**
+- 复制到 `~/.claude/skills/` 目录
+- 在对话中直接调用
 
 ### 方法 2: 使用 book-skill-generator 生成完整 Skill
 

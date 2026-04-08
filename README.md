@@ -7,9 +7,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/Platform-OpenClaw-blue)](https://openclaw.ai)
 [![Claude Code](https://img.shields.io/badge/Platform-Claude_Code-orange)](https://claude.ai)
-[![DuMate](https://img.shields.io/badge/Platform-DuMate-green)](https://dumate.ai)
 
-**支持 OpenClaw、Claude Code、DuMate 等主流 AI 应用**
+**支持 OpenClaw、Claude Code 等主流 AI 应用**
 
 </div>
 
@@ -23,14 +22,14 @@
 - **生成独立 skill:** 为每个方法论生成一个独立的、可安装的 skill 文件
 - **完整结构:** 每个 skill 包含完整的适用场景、执行步骤、输出格式等
 - **易于使用:** 生成的 skill 可通过斜杠命令直接调用
-- **跨平台兼容:** 支持 OpenClaw、Claude Code、DuMate 等多个主流 AI 应用
+- **跨平台兼容:** 支持 OpenClaw、Claude Code 等多个主流 AI 应用
 
 ## 为什么选择 Book Skill Generator？
 
 ### 🌍 跨平台支持
 - **一处编写，多处使用** - 生成的 Skill 可在多个 AI 平台使用
 - **标准格式** - 遵循通用的 Skill 规范，确保兼容性
-- **灵活安装** - 支持 npx 一键安装或手动安装
+- **灵活安装** - 支持口语化安装或手动安装
 
 ### 📚 知识转化
 - **从阅读到实践** - 将书籍知识转化为可执行的工具
@@ -48,16 +47,31 @@
 
 | 平台 | 安装方式 | 状态 |
 |------|---------|------|
-| **OpenClaw** | `npx skills add` | ✅ 完全支持 |
+| **OpenClaw** | 口语化安装（推荐） | ✅ 完全支持 |
 | **Claude Code** | 手动复制到 `.claude/skills/` | ✅ 完全支持 |
-| **DuMate** | `npx skills add` 或手动安装 | ✅ 完全支持 |
 | **其他平台** | 手动安装 | ✅ 兼容标准格式 |
 
 ## 安装方法
 
-### OpenClaw / DuMate
+### OpenClaw（推荐）
 
-使用 `npx skills add` 一键安装：
+**方式 1: 口语化安装（最简单）**
+
+在 OpenClaw 中直接说：
+
+```
+帮我安装下 https://github.com/CymChad/book-skill-generator
+```
+
+或
+
+```
+安装这个 skill：https://github.com/CymChad/book-skill-generator
+```
+
+OpenClaw 会自动帮你安装！
+
+**方式 2: 命令行安装**
 
 ```bash
 npx skills add https://github.com/CymChad/book-skill-generator
@@ -126,8 +140,9 @@ Skill 会自动：
 
 生成的每个方法论 skill 都可以独立安装和使用：
 
-**OpenClaw / DuMate:**
-- 使用 `npx skills add <skill-path>` 安装
+**OpenClaw:**
+- 口语化安装：`帮我安装下 <skill-path>`
+- 或使用命令：`npx skills add <skill-path>`
 - 通过斜杠命令调用，如 `/mvp`
 
 **Claude Code:**
