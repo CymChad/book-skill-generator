@@ -1,7 +1,7 @@
 {
   "name": "book-skill-generator",
   "version": "1.0.0",
-  "description": "从书籍中提取核心方法论，生成可执行的 AI Skill - 示例：《精益创业》",
+  "description": "从书籍中提取核心方法论，生成可执行的 AI Skill - 支持 OpenClaw、Claude Code、DuMate 等主流平台",
   "main": "SKILL.md",
   "scripts": {
     "test": "echo \"No tests yet\""
@@ -9,11 +9,15 @@
   "keywords": [
     "skill",
     "openclaw",
+    "claude-code",
     "dumate",
+    "ai-skill",
     "book",
     "methodology",
-    "ai",
-    "knowledge-extraction"
+    "knowledge-extraction",
+    "lean-startup",
+    "ai-assistant",
+    "prompt-engineering"
   ],
   "author": "Claw (OpenClaw Product Manager)",
   "license": "MIT",
