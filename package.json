@@ -1,0 +1,37 @@
+{
+  "name": "book-skill-generator",
+  "version": "1.0.0",
+  "description": "从书籍中提取核心方法论，生成可执行的 AI Skill - 示例：《精益创业》",
+  "main": "SKILL.md",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "skill",
+    "openclaw",
+    "dumate",
+    "book",
+    "methodology",
+    "ai",
+    "knowledge-extraction"
+  ],
+  "author": "Claw (OpenClaw Product Manager)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/你的用户名/book-skill-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/你的用户名/book-skill-generator/issues"
+  },
+  "homepage": "https://github.com/你的用户名/book-skill-generator#readme",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "examples/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
