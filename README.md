@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/Platform-OpenClaw-blue)](https://openclaw.ai)
 
-**一键安装:** `npx skills add https://github.com/你的用户名/book-skill-generator`
+**一键安装:** `npx skills add https://github.com/CymChad/book-skill-generator`
 
 </div>
 
@@ -27,20 +27,20 @@
 ### 方法 1: 通过 npx 一键安装（推荐）
 
 ```bash
-npx skills add https://github.com/你的用户名/book-skill-generator
+npx skills add https://github.com/CymChad/book-skill-generator
 ```
 
 或使用 Git 地址：
 
 ```bash
-npx skills add git@github.com:你的用户名/book-skill-generator.git
+npx skills add git@github.com:CymChad/book-skill-generator.git
 ```
 
 ### 方法 2: 手动安装
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/你的用户名/book-skill-generator.git
+git clone https://github.com/CymChad/book-skill-generator.git
 ```
 
 2. 将 `SKILL.md` 文件复制到你的 DuMate skills 目录

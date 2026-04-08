@@ -24,7 +24,7 @@
 
 2. **克隆你的 Fork**
    ```bash
-   git clone https://github.com/你的用户名/book-skill-generator.git
+   git clone https://github.com/CymChad/book-skill-generator.git
    cd book-skill-generator
    ```
 
@@ -194,8 +194,8 @@ description: 清晰描述何时触发和使用场景
 如果你有任何问题：
 
 - 📖 查看 [README.md](README.md)
-- 💬 在 [GitHub Discussions](https://github.com/你的用户名/book-skill-generator/discussions) 提问
-- 🐛 在 [GitHub Issues](https://github.com/你的用户名/book-skill-generator/issues) 报告问题
+- 💬 在 [GitHub Discussions](https://github.com/CymChad/book-skill-generator/discussions) 提问
+- 🐛 在 [GitHub Issues](https://github.com/CymChad/book-skill-generator/issues) 报告问题
 
 ## 许可证
 
