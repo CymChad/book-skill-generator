@@ -1,5 +1,6 @@
-# Book Skill Generator
-
+<div align="center">
+书籍.skill
+</div>
 <div align="center">
 
 **把每一本书的方法论，变成你的超能力**
